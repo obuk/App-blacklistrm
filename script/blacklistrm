@@ -1,0 +1,15 @@
+#!perl
+
+use App::blacklistrm;
+App::blacklistrm->run;
+
+__END__
+
+=head1 NAME
+
+blacklist-rm - something like blacklistctl remove
+
+=head1 SYNOPSYS
+
+ blacklist-rm --dryrun ip-address   # to show commands before remove
+ sudo blacklist-rm ip-address       # if the output of --dryrun is ok
